@@ -1,6 +1,5 @@
 public class dataDosen05 {
     
-
     //a menampilkan data dosen
     public static void dataSemuaDosen(Dosen05[] arrayOfDosen) {
         System.out.println("=== Data Semua Dosen ===");
@@ -10,7 +9,6 @@ public class dataDosen05 {
         System.out.println("-----------------------------");
 
     }
-
 
     //b menampilkan data dosen berdasarkan jenis kelamin
     public static void jumlahDosenPerJenisKelamin(Dosen05[] arrayOfDosen) {
