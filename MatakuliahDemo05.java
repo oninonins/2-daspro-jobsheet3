@@ -3,7 +3,9 @@ public class MatakuliahDemo05 {
    public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    matakuliah05[] arrayOfMataKuliah = new matakuliah05[3];
+    System.out.println("Masukkan jumlah matakuliah : ");
+    int jumlah = input.nextInt();
+    matakuliah05[] arrayOfMataKuliah = new matakuliah05[jumlah];
     String kode,nama,dummy;
     int sks,JumlahJam;
 
